@@ -1,0 +1,101 @@
+.block {
+  height: 116px;
+  position: relative;
+  display: flex;
+  gap: 21px;
+}
+
+.orange_logo {
+  height: 43.99px;
+  width: 42.3px;
+}
+
+.p_social {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #343434;
+}
+
+.phone {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.free_call {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #999999;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.list {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+
+.list__links {
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.list__links:hover {
+  color: #f96900;
+}
+
+.navigation {
+  margin: 45px;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 104px;
+  height: 40px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #f96900;
+  color: #ffffff;
+  border: none;
+  border-radius: 1000px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: #999999;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
