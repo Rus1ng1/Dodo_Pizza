@@ -2,11 +2,12 @@
 @import url("./reset.css");
 @import url("./header.css");
 @import url("./NewPopular.css");
+@import url("./pizza.css");
 
 body {
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   padding-top: 25px;
-  background-color: #fafafa;
+  background-color: white;
 }
 
 .container {

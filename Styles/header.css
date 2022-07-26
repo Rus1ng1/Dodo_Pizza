@@ -82,8 +82,8 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
-  background-color: #f96900;
-  color: #ffffff;
+  background-color: #fff0e6;
+  color: #d15700;
   border: none;
   border-radius: 1000px;
 }
@@ -91,7 +91,8 @@
 .btn:hover {
   cursor: pointer;
   transition: 0.2s;
-  background-color: #999999;
+  color: #ffffff;
+  background-color: #f96900;
 }
 
 .middle {
