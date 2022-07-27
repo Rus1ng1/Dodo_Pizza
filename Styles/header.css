@@ -82,17 +82,16 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
-  background-color: #fff0e6;
-  color: #d15700;
+  background-color: #f96900;
+  color: #ffffff;
   border: none;
   border-radius: 1000px;
 }
 
 .btn:hover {
   cursor: pointer;
-  transition: 0.2s;
-  color: #ffffff;
-  background-color: #f96900;
+  transition: 0.1s;
+  opacity: 0.8;
 }
 
 .middle {

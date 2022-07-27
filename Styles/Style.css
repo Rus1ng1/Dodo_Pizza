@@ -2,7 +2,7 @@
 @import url("./reset.css");
 @import url("./header.css");
 @import url("./NewPopular.css");
-@import url("./pizza.css");
+@import url("./pizza-combo-snacks.css");
 
 body {
   font-family: "Nunito", Arial, Helvetica, sans-serif;
@@ -41,4 +41,9 @@ h4 {
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
+}
+
+.halfPizza:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }

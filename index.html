@@ -20,7 +20,7 @@
             <h2 class="phone">8 800 302-00-60</h2>
             <p class="free_call">Звонок бесплатный</p>
           </div>
-          <div class="navigation">
+          <nav class="navigation">
             <ul class="list">
               <li><a class="list__links" href="#">Пицца</a></li>
               <li><a class="list__links" href="#">Комбо</a></li>
@@ -29,67 +29,69 @@
               <li><a class="list__links" href="#">Напитки</a></li>
               <li><a class="list__links" href="#">Другие Товары</a></li>
             </ul>
-          </div>
+          </nav>
           <button class="btn" type="button">Корзина</button>
         </div>
       </div>
     </header>
-    <picture>
-      <div class="middle">
-        <img class="inner" src="./Header/img/middle.png" alt="" />
-      </div>
-    </picture>
     <main>
+      <div class="slider">
+        <div class="container">
+          <div class="middle">
+            <img class="inner" src="./Header/img/middle.png" alt="" />
+          </div>
+        </div>
+      </div>
       <section>
         <div class="container">
           <div class="popular">
             <h2>Новое и популярное</h2>
             <div class="promo">
-              <div class="text__img">
+              <div class="promo__card">
                 <div class="promocion">
                   <img
                     src="./Main/img/Новое и популярное/лосось.png"
                     alt="ceaser"
                   />
                 </div>
-                <div class="inner_text">
+                <div class="card__descripcion">
                   <p class="promo__text">Цезарь</p>
                   <h4>от 445 ₽</h4>
                 </div>
               </div>
 
-              <div class="text__img">
+              <div class="promo__card">
                 <div class="promocion">
                   <img
                     src="./Main/img/Новое и популярное/лосось.png"
                     alt="Salmon"
                   />
                 </div>
-                <div class="inner_text">
+                <div class="card__descripcion">
                   <p class="promo__text">Нежный лосось</p>
                   <h4>от 495 ₽</h4>
                 </div>
               </div>
-              <div class="text__img">
+              <div class="promo__card">
                 <div class="promocion">
                   <img
                     src="./Main/img/Новое и популярное/2 пиццы.png"
                     alt="2_pizzas"
                   />
                 </div>
-                <div class="inner_text">
+                <div class="card__descripcion">
                   <p class="promo__text">2 пиццы</p>
                   <h4>899 ₽</h4>
                 </div>
               </div>
-              <div class="text__img">
+              <div class="promo__card">
                 <div class="promocion">
                   <img
                     src="./Main/img/Новое и популярное/карбонара.png"
                     alt="karbonara"
                   />
                 </div>
-                <div class="inner_text">
+                <div class="card__descripcion">
                   <p class="promo__text">Карбонара</p>
                   <h4>от 395 ₽</h4>
                 </div>
@@ -102,79 +104,614 @@
         <div class="container">
           <div class="pizza__selection">
             <h2>Пицца</h2>
-            <div class="all__img">
-              <div class="pizza_text_price">
-                <img
-                  class="halfPizza"
-                  src="./Main/img/Пица/Пицца из половинок.jpg"
-                  alt="half_pizza"
-                />
-                <div class="description">
+            <div class="menu__card">
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Пицца из половинок.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
                   <h3>Пицца из половинок</h3>
                   <p class="inPizza__text">
                     Соберите свою пиццу 35 см с двумя разными вкусами
                   </p>
                 </div>
-                <div class="price"><h4>от 600 ₽</h4></div>
-                <div>
-                  <button class="btn__pizza" type="button">Собрать</button>
+                <div class="price_btn">
+                  <h4>от 600 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
                 </div>
               </div>
-              <div class="pizza_text_price">
-                <img
-                  class="halfPizza"
-                  src="./Main/img/Пица/Пепперони-сердце.jpg"
-                  alt="pepperoni"
-                />
-                <div class="description">
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Пепперони-сердце.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
                   <h3>Пепперони-сердце</h3>
                   <p class="inPizza__text">
                     Пикантная пепперони, моцарелла, томатный соус
                   </p>
                 </div>
-                <div class="price"><h4>от 625 ₽</h4></div>
-                <div>
-                  <button class="btn__pizza" type="button">Собрать</button>
+                <div class="price_btn">
+                  <h4>от 625 ₽</h4>
+                  <button class="btn__all__img__2" type="button">
+                    Выбрать
+                  </button>
                 </div>
               </div>
-              <div class="pizza_text_price">
-                <img
-                  class="halfPizza"
-                  src="./Main/img/Пица/Пирог-сердце.jpg"
-                  alt="pie"
-                />
-                <div class="description">
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Пирог-сердце.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
                   <h3>Пирог-сердце</h3>
                   <p class="inPizza__text">
                     Ананасы, брусника, сгущенное молоко
                   </p>
                 </div>
-                <div class="price"><h4>от 600 ₽</h4></div>
-                <div>
-                  <button class="btn__pizza" type="button">Собрать</button>
+                <div class="price_btn">
+                  <h4>от 625 ₽</h4>
+                  <button class="btn__all__img__2" type="button">
+                    Выбрать
+                  </button>
                 </div>
               </div>
-              <div class="pizza_text_price">
-                <img
-                  class="halfPizza"
-                  src="./Main/img/Пица/Чиззи чеддер.jpg"
-                  alt="cheesy"
-                />
-                <div class="description">
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Чиззи чеддер.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
                   <h3>Чиззи чеддер</h3>
                   <p class="inPizza__text">
                     Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный
                     соус, чеснок, итальянские травы
                   </p>
                 </div>
-                <div class="price__ched"><h4>от 600 ₽</h4></div>
-                <div>
-                  <button class="btn__pizza" type="button">Собрать</button>
+                <div class="price_btn">
+                  <h4>от 625 ₽</h4>
+                  <button class="btn__all__img__2" type="button">
+                    Выбрать
+                  </button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Цыпленок блю чиз.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Цыпленок блю чиз</h3>
+                  <p class="inPizza__text">
+                    Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>от 445 ₽</h4>
+                  <button class="btn__all__img__2" type="button">
+                    Выбрать
+                  </button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Нежный лосось.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Нежный лосось</h3>
+                  <p class="inPizza__text">
+                    Лосось, томаты черри, соус песто, моцарелла, соус альфредо
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>от 495 ₽</h4>
+                  <button class="btn__all__img__2" type="button">
+                    Выбрать
+                  </button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Сырная.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Сырная</h3>
+                  <p class="inPizza__text">
+                    Увеличенная порция моцареллы, сыры чеддер и пармезан, соус
+                    альфредо
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>от 245 ₽</h4>
+                  <button class="btn__all__img__2" type="button">
+                    Выбрать
+                  </button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Пица/Пепперони фреш.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Пепперони фреш</h3>
+                  <p class="inPizza__text">
+                    Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                    томатный соус
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>от 245 ₽</h4>
+                  <button class="btn__all__img__2" type="button">
+                    Выбрать
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="pizza__selection">
+            <h2>Комбо</h2>
+            <div class="menu__card">
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Комбо/Комбо.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Комбо за 599 ₽</h3>
+                  <p class="inPizza__text">
+                    Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и
+                    соус.
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>599 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Комбо/Комбо.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>2 пиццы</h3>
+                  <p class="inPizza__text">
+                    Самое популярное комбо из 2 пицц 30 см. Большой выбор
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>899 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Комбо/Комбо.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>2 пиццы и закуска</h3>
+                  <p class="inPizza__text">
+                    2 пиццы 25 см и закуска на выбор. Для компании из 2–4
+                    человек
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>799 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Комбо/Комбо.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Пицца и 2 закуски</h3>
+                  <p class="inPizza__text">
+                    Пицца 30 см и 2 закуски на выбор. Для компании из 2–4
+                    человек
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>799 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Комбо/Комбо.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Комбо за 999 ₽</h3>
+                  <p class="inPizza__text">
+                    3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц
+                    ограничен
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>999 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="pizza__selection">
+            <h2>Закуски</h2>
+            <div class="menu__card">
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Закуски/Томатный суп.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Томатный суп с гренками</h3>
+                  <p class="inPizza__text">
+                    Горячий суп с пшеничными гренками на основе фирменного соуса
+                    из итальянских томатов
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>99 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Закуски/Томатный суп.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Томатный суп с митболами</h3>
+                  <p class="inPizza__text">
+                    Горячий суп c митболами из говядины и маслинами на основе
+                    фирменного соуса из итальянских томатов
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>149 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Закуски/Додстер.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Додстер</h3>
+                  <p class="inPizza__text">
+                    Легендарная горячая закуска с цыпленком, томатами,
+                    моцареллой, соусом ранч в тонкой пшеничной лепешке
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>159 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Закуски/Острый Додстер.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Острый Додстер</h3>
+                  <p class="inPizza__text">
+                    Горячая закуска с острым цыпленком, перцем халапеньо,
+                    солеными огурчиками, томатами, моцареллой и соусом барбекю в
+                    тонкой пшеничной лепешке
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>159 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+              <div class="img__text_price">
+                <div class="main__img">
+                  <img
+                    class="halfPizza"
+                    src="./Main/img/Закуски/Додстер Чипотле.jpg"
+                    alt="half_pizza"
+                  />
+                </div>
+                <div class="descripcion">
+                  <h3>Додстер Чипотле</h3>
+                  <p class="inPizza__text">
+                    Горячая закуска с пикантным соусом чипотле из копченых
+                    перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной
+                    лепешке
+                  </p>
+                </div>
+                <div class="price_btn">
+                  <h4>159 ₽</h4>
+                  <button class="btn__all__img" type="button">Собрать</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <section>
+          <div class="container">
+            <div class="pizza__selection">
+              <h2>Десерты</h2>
+              <div class="menu__card">
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Десерты/Яблочный пирог.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Яблочный пирог</h3>
+                    <p class="inPizza__text">
+                      Десерт из песочного теста с яблочной начинкой. Может
+                      содержать изюм
+                    </p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>99 ₽</h4>
+                    <button class="btn__all__img" type="button">Собрать</button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Десерты/Чизкейк Нью-Йорк.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Чизкейк Нью-Йорк</h3>
+                    <p class="inPizza__text">
+                      Классический американский творожный десерт
+                    </p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>149 ₽</h4>
+                    <button class="btn__all__img" type="button">Собрать</button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Десерты/Фонданы, 2 шт.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Фонданы, 2 шт</h3>
+                    <p class="inPizza__text">
+                      Два десерта с хрустящей корочкой и топлёной шоколадной
+                      начинкой
+                    </p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>159 ₽</h4>
+                    <button class="btn__all__img" type="button">Собрать</button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Десерты/Классический молочный коктейль.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Молочный коктейль с печеньем Орео</h3>
+                    <p class="inPizza__text">
+                      Напиток из молока и мороженого с добавлением дробленого
+                      печенья «Орео»
+                    </p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>159 ₽</h4>
+                    <button class="btn__all__img" type="button">Собрать</button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Десерты/Классический молочный коктейль.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Классический молочный коктейль</h3>
+                    <p class="inPizza__text">Напиток из молока и мороженого</p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>159 ₽</h4>
+                    <button class="btn__all__img" type="button">Собрать</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <section>
+          <div class="container">
+            <div class="pizza__selection">
+              <h2>Напитки</h2>
+              <div class="menu__card">
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Напитки/2 Coca-Cola по суперцене.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>2 Coca-Cola по суперцене</h3>
+                    <p class="inPizza__text">
+                      Две классические Coca-Cola по 0,5 литров по выгодной цене,
+                      0,5 л
+                    </p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>99 ₽</h4>
+                    <button class="btn__all__img__2" type="button">
+                      В корзину
+                    </button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Напитки/Coca-Cola Orange.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Coca-Cola Orange</h3>
+                    <p class="inPizza__text">0,5 л</p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>149 ₽</h4>
+                    <button class="btn__all__img__2" type="button">
+                      В корзину
+                    </button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Напитки/Coca-Cola Zero.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Coca-Cola Zero</h3>
+                    <p class="inPizza__text">0,5 л</p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>159 ₽</h4>
+                    <button class="btn__all__img__2" type="button">
+                      В корзину
+                    </button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Напитки/Coca-Cola.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Coca-Cola</h3>
+                    <p class="inPizza__text">0,5 л</p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>159 ₽</h4>
+                    <button class="btn__all__img__2" type="button">
+                      В корзину
+                    </button>
+                  </div>
+                </div>
+                <div class="img__text_price">
+                  <div class="main__img">
+                    <img
+                      class="halfPizza"
+                      src="./Main/img/Напитки/Coca-Cola Vanilla.jpg"
+                      alt="half_pizza"
+                    />
+                  </div>
+                  <div class="descripcion">
+                    <h3>Coca-Cola Vanilla</h3>
+                    <p class="inPizza__text">Напиток из молока и мороженого</p>
+                  </div>
+                  <div class="price_btn">
+                    <h4>159 ₽</h4>
+                    <button class="btn__all__img__2" type="button">
+                      В корзину
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </main>
     <footer>
