@@ -1,0 +1,106 @@
+footer {
+  background-color: #464c55;
+}
+
+.main__footer {
+  margin-top: 134px;
+  padding-top: 50px;
+}
+
+.first__footer {
+  display: flex;
+}
+
+.foot__text__main {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: 0;
+  cursor: pointer;
+}
+
+.foot__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.foot__text:hover {
+  color: #ffffff;
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.foot__text__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#first__col {
+  margin-right: 43px;
+}
+
+#second__col {
+  margin-right: 33px;
+}
+
+#third__col {
+  margin-right: 26px;
+}
+
+#fourth__col {
+  margin-right: 78px;
+}
+
+.right__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social__network {
+  border-radius: 5px;
+  margin-bottom: 29px;
+}
+
+.phone__text {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.right__foot_text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-bottom: 26px;
+}
+
+.e-mail__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.9;
+  text-decoration: none;
+}

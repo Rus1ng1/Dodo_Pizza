@@ -44,7 +44,7 @@
 }
 
 .btn__all__img {
-  width: 104px;
+  width: 120px;
   height: 40px;
   margin-right: 20px;
   font-size: 16px;
@@ -65,7 +65,7 @@
 }
 
 .btn__all__img__2 {
-  width: 104px;
+  width: 120px;
   height: 40px;
   margin-right: 20px;
   font-size: 16px;
@@ -83,4 +83,23 @@
   cursor: pointer;
   transition: 0.1s;
   opacity: 0.6;
+}
+
+.input_cola {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+
+  margin-right: 20px;
+
+  color: #73798c;
+  background-color: #f3f3f7;
+  border: 0;
+  border-radius: 1000px;
 }
